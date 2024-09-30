@@ -12,7 +12,7 @@ body{
     height: 100vh;  /*body is set the full height of viewport*/
 }
 
-.container{
+.grid-container{
     display: flex;
     flex-wrap: wrap;
     width: 320px;
