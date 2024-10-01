@@ -8,20 +8,23 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FFE1FF;
+    background-color: #CB80AB;
     height: 100vh;  /*body is set the full height of viewport*/
 }
 
 .grid-container{
     display: flex;
     flex-wrap: wrap;
-    width: 320px;
-    height: 320px;
-    border: 2px solid #7E60BF;
+    width: 500px;
+    height: 500px;
+    border: 2px solid #624E88;
 }
 
 .grid-square{
     flex: 1 0 6.25%; /*100 divided by 16 equals to 6.25*/
     height: 6.25%;
-    border: 1px solid #433878;
+    border: 1px solid #624E88;
+    transition: background-color 0.2s ease ;
 }
+
+/* #E6D9A2 color code for hovering */
