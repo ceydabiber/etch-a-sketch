@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body{
     display: flex;
@@ -19,13 +14,17 @@ body{
     width: 500px;
     height: 500px;
     border: 2px solid #624E88;
+    margin: 0;
+    padding: 0;
 }
 
 .grid-square{
-    flex: 1 0 6.25%; /*100 divided by 16 equals to 6.25*/
-    height: 6.25%;
+    /* flex: 1 0 6.25%; 100 divided by 16 equals to 6.25 */
+    /* height: auto;
+    width: auto; */
     border: 1px solid #624E88;
     transition: background-color 0.2s ease ;
+    box-sizing: border-box;
 }
 
 #clearBtn{
