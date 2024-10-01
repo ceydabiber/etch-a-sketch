@@ -38,5 +38,41 @@ body{
     display: block;
     margin-top: 20px;  
 }
+.size-container{
+    width: 500px;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.grid-size-label{
+    font-family: monospace;
+    color: #e6d9a2;
+    font-size: 16px;
+    font-weight: 900;
+
+}
+
+#grid-size{
+    font-family: monospace;
+    color: #e6d9a2;
+    background-color: #8967B3;
+    font-size: 14px;
+    font-weight: 900;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#resizeBtn{
+    background-color: #8967B3;
+    font-family: monospace;
+    color: #e6d9a2;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: 900;
+    border-radius: 10px;
+    display: block;  
+}
 
 /* #E6D9A2 color code for hovering */

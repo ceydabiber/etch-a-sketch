@@ -6,9 +6,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <label for="grid-size">Grid size: </label>
-    <input type="number" id="grid-size" min="2" max="100" value="16">
-    <button id="resizeBtn">Resize Grid</button>
+    <div class="size-container">
+        <label for="grid-size" class="grid-size-label">Grid size: </label>
+        <input type="number" id="grid-size" min="2" max="100" value="16">
+        <button id="resizeBtn">Resize Grid</button>
+    </div>
     <div class="grid-container"></div>
     <button id="clearBtn">Clear Grid</button>
     <script src="web.js"></script>
