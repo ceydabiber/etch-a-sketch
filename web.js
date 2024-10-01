@@ -1,4 +1,5 @@
 const gridContainer = document.querySelector('.grid-container');
+const clearBtn = document.getElementById('clearBtn');
 
 function  createGrid(size){
     const totalSquares = size*size;
@@ -17,5 +18,14 @@ function  createGrid(size){
 
    }
 }
+
+function clearGrid(){
+    const squares = document.querySelectorAll('.grid-square');
+    squares.forEach(square => {
+        square.style.backgroundColor = '';
+    });
+}
+
+clearBtn.addEventListener('click', clearGrid);
 
 createGrid(16);
