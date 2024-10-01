@@ -6,6 +6,7 @@
 
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #CB80AB;
@@ -25,6 +26,18 @@ body{
     height: 6.25%;
     border: 1px solid #624E88;
     transition: background-color 0.2s ease ;
+}
+
+#clearBtn{
+    background-color: #8967B3;
+    font-family: monospace;
+    color: #e6d9a2;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 10px;
+    display: block;
+    margin-top: 20px;  
 }
 
 /* #E6D9A2 color code for hovering */
